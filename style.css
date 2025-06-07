@@ -1,0 +1,112 @@
+#menu_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu_card {
+    background-image: url(images/product-back.webp); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    margin-top: -5px;
+    margin-bottom: -30px;
+  }
+ #menu_cards .card {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px;
+  }
+#nav-1{
+    background-color: rgb(42, 40, 40);
+    border-bottom: 2px solid white;
+    height: 60px;
+}
+#nav-2{
+    background-color: rgb(42, 40, 40);
+    border-bottom: 2px solid white;
+    height: 70px;
+}
+.navbar-brand,.nav-link,.give-col1{
+    color: white;
+}
+.navbar-brand{
+    visibility: hidden;
+}
+.give-col{
+    color: black;
+}
+.give-col,.give-col1{
+    font-family: "Poetsen One", sans-serif;
+}
+#about{
+    margin-top: 0px;
+}
+#back{
+    background-color: azure;
+    background-size: cover;
+}
+.brand{
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    color:rgb(253, 253, 253);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+.card-img-top{
+    height: 180px;
+    width: 250px;
+    margin: 10px;
+}
+#below-nav{
+    background-color:  rgb(42, 40, 40);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+#head-font{
+    color: white;
+}
+#card-hov:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+#card-hov{
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+#navbarSupportedContent{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    border: 1px solid; 
+    border-color: rgb(229, 221, 221);
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color:  rgb(42, 40, 40);
+}
+.nav-item:hover{
+    background-color: rgb(237, 230, 230);
+    color: black;
+}
+h1{
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.card-text{
+    height: 50px;
+    color:rgb(5, 60, 60);
+}
+.card-title{
+    font-family: "Noto Serif Dives Akuru", serif;
+}
